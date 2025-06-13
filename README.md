@@ -1,7 +1,8 @@
 Financial News NLP Analytics Pipeline
 A comprehensive Natural Language Processing pipeline for sentiment analysis and topic modeling on financial news data, featuring an interactive dashboard for data exploration and insights.
 
-![PCA Clusters Visualization](outputs/pca_clustersProject Overview**
+##  PCA Cluster Visualization
+![PCA Clusters Visualization](outputs/pca_clusters.png)
 
 This project implements an end-to-end NLP pipeline that processes financial news articles to extract sentiment, discover topics, and cluster similar content. The system combines multiple machine learning models and provides interactive visualizations for strategic decision-making in financial analysis.
 
