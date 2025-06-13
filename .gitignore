@@ -1,2 +1,70 @@
 nlp_env/
 nlp_env/
+
+# =====================
+# Python
+# =====================
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.ipynb_checkpoints
+
+# =====================
+# Virtual Environments
+# =====================
+venv/
+.env
+.env.*
+
+# =====================
+# Logs and Temp Files
+# =====================
+*.log
+*.tmp
+*.swp
+
+# =====================
+# Jupyter & Notebooks
+# =====================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =====================
+# Data Science Outputs
+# =====================
+outputs/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.pdf
+*.html
+*.zip
+*.pkl
+*.joblib
+*.sav
+*.h5
+*.hdf5
+*.model
+
+# =====================
+# Dash/Plotly or Flask App
+# =====================
+__pycache__/
+*.db
+*.sqlite3
+instance/
+config.py
+*.egg-info/
+coverage/
+*.cache/
+*.pytest_cache/
+dash-debug.log
+
+# =====================
+# IDE & OS Files
+# =====================
+.vscode/
+.idea/
+.DS_Store
