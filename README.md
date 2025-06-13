@@ -321,13 +321,10 @@ Create a Pull Request
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 👨‍💻 Author
-Your Name
+Sree Kaushik
+GitHub: @Sree-Kaushik
 
-GitHub: @yourusername
-
-LinkedIn: Your LinkedIn Profile
-
-Email: your.email@example.com
+Email: f20220013@hyderabad.bits-pilani.ac.in
 
 🙏 Acknowledgments
 FinBERT: ProsusAI for the financial sentiment analysis model
