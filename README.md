@@ -3,7 +3,7 @@ A comprehensive Natural Language Processing pipeline for sentiment analysis and 
 This project implements an end-to-end NLP pipeline that processes financial news articles to extract sentiment, discover topics, and cluster similar content. The system combines multiple machine learning models and provides interactive visualizations for strategic decision-making in financial analysis.
 
 Key Features
-Multi-Model Sentiment Analysis: VADER, TextBlob, and FinBERT ensemble approach
+Multi-Model Sentiment Analysis: VADER, Blob, and FinBERT ensemble approach
 Topic Modeling: LDA with Gensim for thematic analysis and coherence optimization
 Document Clustering: K-means with sentence embeddings for semantic grouping
 Dimensionality Reduction: t-SNE and PCA visualizations for cluster analysis
@@ -20,8 +20,8 @@ Sentiment Analysis Results
 
 Model Performance Comparison:
 VADER: 5 positive, 4 negative, 1 neutral
-TextBlob: 6 positive, 3 neutral, 1 negative
-FinBERT: 7 negative, 3 positive (specialized for financial text)
+Blob: 6 positive, 3 neutral, 1 negative
+FinBERT: 7 negative, 3 positive (specialized for financial )
 Ensemble: Balanced 4 negative, 3 positive, 3 neutral (weighted combination)
 
 Topic Modeling Analysis
@@ -56,14 +56,14 @@ Dashboard: Dash (2.0+), dash-bootstrap-components (1.0+)
 
 Models Implemented
 FinBERT: ProsusAI/finbert for financial sentiment analysis
-VADER: Rule-based sentiment analysis for social media text
-TextBlob: Pattern-based sentiment polarity detection
+VADER: Rule-based sentiment analysis for social media 
+Blob: Pattern-based sentiment polarity detection
 LDA: Latent Dirichlet Allocation for topic discovery
 K-means: Clustering with sentence transformer embeddings
 t-SNE/PCA: Dimensionality reduction for visualization
 
 📁 Project Structure
-text
+
 financial-nlp-project/
 ├── src/
 │   ├── data_preprocessing.py      # Text cleaning, tokenization, NER
@@ -95,28 +95,22 @@ pip package manager
 Internet connection (for model downloads)
 
 Step 1: Clone Repository
-bash
 git clone https://github.com/yourusername/financial-nlp-project.git
 cd financial-nlp-project
 Step 2: Create Virtual Environment
-bash
 python -m venv nlp_env
 source nlp_env/bin/activate  # On Windows: nlp_env\Scripts\activate
 Step 3: Install Dependencies
-bash
 pip install -r requirements.txt
 Step 4: Download Language Models
-bash
 # Download spaCy English model
 python -m spacy download en_core_web_sm
 # Download NLTK data
 python -c "import nltk; nltk.download('all')"
 Step 5: Set Environment Variables
-bash
 export TOKENIZERS_PARALLELISM=false
  Running the Pipeline
 Complete Pipeline Execution
-bash
 python main.py
 
 This will execute the entire pipeline:
@@ -129,7 +123,6 @@ Dimensionality Reduction (t-SNE and PCA)
 Interactive Dashboard Launch (http://localhost:8050)
 
 Testing Individual Components
-bash
 # Test data preprocessing
 python src/data_preprocessing.py
 
@@ -159,7 +152,7 @@ financial_nlp_results.csv - Complete processed dataset with all features
 Contains: original text, cleaned text, sentiment scores, topic assignments, cluster labels, embeddings coordinates
 
 Analysis Results
-text
+
 Sentiment Analysis Results:
   Negative: 4 (40.0%)
   Positive: 3 (30.0%)
@@ -262,4 +255,4 @@ Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks
 t-SNE: Visualizing Data using t-SNE
 
 ⭐ If you found this project helpful, please give it a star! ⭐
-This project demonstrates production-ready NLP capabilities for financial text analysis and strategic decision-making.
+This project demonstrates production-ready NLP capabilities for financial  analysis and strategic decision-making.
